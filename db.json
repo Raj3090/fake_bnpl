@@ -6,6 +6,13 @@
 			"status": "sent"
 		}
 	},
+	"verify_txn": {
+		"success": true,
+		"errors": [],
+		"data": {
+			"status": "pending"
+		}
+	},
 	"verify_otp": {
 		"success": true,
 		"errors": [],
