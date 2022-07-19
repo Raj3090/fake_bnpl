@@ -6,6 +6,14 @@
 			"status": "sent"
 		}
 	},
+	"transaction_create": {
+		"success": true,
+		"errors": [],
+		"data": {
+			"transactionId": "string",
+                        "isOtpRequired": true
+		}
+	},
 	"verify_txn": {
 		"success": true,
 		"errors": [],
