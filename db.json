@@ -1,1 +1,7 @@
-{ "success" : true, "errors" : [ { "errorCode":"LEND_FS_RESENDOTP_100”} ], "data" : { "status": "sent" } }
+{ 
+ "success" : true, 
+ "errors" : [ 
+            {"errorCode":"LEND_FS_RESENDOTP_100”} 
+            ], 
+ "data" : { "status": "sent" } 
+}
