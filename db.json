@@ -1,5 +1,5 @@
 {
-"verify_otp": {
+"resend_otp": {
 "success": true,
  "errors" : [
  ],
