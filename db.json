@@ -1,51 +1,64 @@
 {
-"resend_otp": {
-"success": true,
- "errors" : [
- ],
- "data" : {
-   "status":"sent"
-  } 
-},
-"verify_otp": {
-"success": true,
- "errors" : [
- ],
- "data" : {
-   "status":"invalid_retry",
-   "attemptLeft":"2"
-   "retryCount":"3"
-  } 
-},
- 
- "propose_transaction" : {
- 
- {
-	"success": true,
-	"errors": [],
-	"data": {
-		"transactionId": "string",
-		"tender": {
-			"code": "bnpl"
-		},
-		"subTransactions": [{
-			"subTransaactionId": "string",
-			"items": [{
-				"quantity": 0,
-				"skuId": "string",
-				"productId": "string",
-				"price": 0,
-				"description": "string",
-				"category": "string",
-				"model": "string",
-				"color": "string",
-				"imei": "string",
-				"emiPlans": [{
+	"resend_otp": {
+		"success": true,
+		"errors": [],
+		"data": {
+			"status": "sent"
+		}
+	},
+	"verify_otp": {
+		"success": true,
+		"errors": [],
+		"data": {
+			"status": "invalid_retry",
+			"attemptLeft": "2",
+			"retryCount": "3"
+		}
+	},
+	"propose_transaction": {
+
+
+		"success": true,
+		"errors": [],
+		"data": {
+			"transactionId": "string",
+			"tender": {
+				"code": "bnpl"
+			},
+			"subTransactions": [{
+				"subTransaactionId": "string",
+				"items": [{
+					"quantity": 0,
+					"skuId": "string",
+					"productId": "string",
+					"price": 0,
+					"description": "string",
+					"category": "string",
+					"model": "string",
+					"color": "string",
+					"imei": "string",
+					"emiPlans": [{
+						"schemes": [{
+							"schemeId": "string",
+							"tenureUnit": "days",
+							"tenureDuration-net": 0,
+							"tenureDuration-gross": 0,
+							"isNoCost": true,
+							"interest": 0,
+							"emiDiscount": 0,
+							"advanceEmi": 0,
+							"processingFee": 0,
+							"emiAmount": 0,
+							"isSelected": true
+						}]
+					}]
+				}],
+				"emiPlan": {
 					"schemes": [{
 						"schemeId": "string",
 						"tenureUnit": "days",
 						"tenureDuration-net": 0,
-						"tenureDuration-gross": 0,
+						"tenureDurationGross": 0,
 						"isNoCost": true,
 						"interest": 0,
 						"emiDiscount": 0,
@@ -54,39 +67,23 @@
 						"emiAmount": 0,
 						"isSelected": true
 					}]
-				}]
+				},
+				"downpayment": {
+					"downpayment": 0,
+					"minimum": 0,
+					"maximum": 0
+				}
 			}],
-			"emiPlan": {
-				"schemes": [{
-					"schemeId": "string",
-					"tenureUnit": "days",
-					"tenureDuration-net": 0,
-					"tenureDurationGross": 0,
-					"isNoCost": true,
-					"interest": 0,
-					"emiDiscount": 0,
-					"advanceEmi": 0,
-					"processingFee": 0,
-					"emiAmount": 0,
-					"isSelected": true
-				}]
-			},
 			"downpayment": {
 				"downpayment": 0,
 				"minimum": 0,
 				"maximum": 0
 			}
-		}],
-		"downpayment": {
-			"downpayment": 0,
-			"minimum": 0,
-			"maximum": 0
 		}
+
+
+
+
 	}
 
-}
- 
- 
- }
- 
 }
