@@ -63,7 +63,7 @@
                     "schemes": [
                         {
                             "schemeId": "schm1",
-                            "tenureUnit": "null",
+                            "tenureUnit": "day",
                             "tenureDurationNet": 3,
                             "isNoCost": false,
                             "interest": 772.5538761095304,
