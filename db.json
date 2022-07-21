@@ -68,7 +68,9 @@
                             "isNoCost": false,
                             "interest": 772.5538761095304,
                             "emiAmount": 13090.85129203651,
-                            "isSelected": false
+                            "isSelected": false,
+		            "advanceEmi":0.0,
+		            "processingFee":0.0		
                         }
                     ]
                 },
