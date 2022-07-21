@@ -74,7 +74,11 @@
                         }
                     ]
                 },
-                "downPayment": {},
+                "downPayment": {
+            "downPayment": 6000,
+            "minimum": 6000,
+            "maximum": 9200
+        },
                 "loanAmount": 0,
                 "neuCoins": 0
             }
