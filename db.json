@@ -1,5 +1,6 @@
 {
 	"resend_otp": {
+		 "status": "Success",
 		"success": true,
 		"errors": [],
 		"data": {
@@ -7,6 +8,7 @@
 		}
 	},
 	"transaction_create": {
+		 "status": "Success",
 		"success": true,
 		"errors": [],
 		"data": {
@@ -15,6 +17,7 @@
 		}
 	},
 	"verify_txn": {
+		 "status": "Success",
 		"success": true,
 		"errors": [],
 		"data": {
@@ -22,6 +25,7 @@
 		}
 	},
 	"verify_otp": {
+		 "status": "Success",
 		"success": true,
 		"errors": [],
 		"data": {
@@ -31,7 +35,7 @@
 		}
 	},
 	"transaction_propose": {
-
+ "status": "Success",
 
 		"success": true,
 		"errors": [],
