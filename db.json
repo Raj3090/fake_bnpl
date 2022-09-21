@@ -1,140 +1,46 @@
 {
-	"resend_otp": {
+	"single-offer": {
 		 "status": "Success",
-		"success": true,
-		"errors": [],
-		"data": {
-			"status": "sent"
+		 "errors": [],
+		 "data": {
+			"offers": [
+    {
+      "id": "ID1",
+      "amountLable": "5 Lakh",
+      "amount": 5000000,
+      "lenderLogoUrl": "d"
+    }
+  ]
+		 }
+	},
+	"multiple-offer": {
+		 "status": "Success",
+		 "errors": [],
+		 "data": {
+		"offers": [
+    {
+      "id": "ID1",
+      "amountLable": "5 Lakh",
+      "amount": 5000000,
+      "lenderLogoUrl": "d"
+    },
+    {
+      "id": "ID1",
+      "amountLable": "30 Lakh",
+      "amount": 5000000,
+      "lenderLogoUrl": "d"
+    }
+  ]
 		}
 	},
-	"transaction_create": {
-		 "status": "Success",
-		"success": true,
+	"no-offer": {
+		"status": "Success",
 		"errors": [],
 		"data": {
-			"transactionId": "string",
-                        "isOtpRequired": true
+			"offers": [
+ 
+  ]
 		}
-	},
-	"verify_txn": {
-		 "status": "Success",
-		"success": true,
-		"errors": [],
-		"data": {
-			"status": "pending"
-		}
-	},
-	"verify_otp": {
-		 "status": "Success",
-		"success": true,
-		"errors": [],
-		"data": {
-			"status": "invalid_retry",
-			"attemptLeft": "2",
-			"retryCount": "3"
-		}
-	},
-	"transaction_propose": {
- "status": "Success",
-
-		"success": true,
-		"errors": [],
-		"data": {
-		     "transactionId": "b1789dda-4fe4-45dc-bee2-8b28e85c273f",
-        "tender": {
-            "code": "emi"
-        },
-        "subTransactions": [
-            {
-                "subTransactionId": "5170acba-d506-433b-ab83-3c215e354d29",
-                "items": [
-                    {
-                        "quantity": 1,
-                        "skuId": "sku1",
-                        "productId": "e131942a-c49d-43bd-aa9d-ecf6cc47cc2f",
-                        "price": 23000,
-                        "emiAmount": 0
-                    },
-                    {
-                        "quantity": 1,
-                        "skuId": "sku1",
-                        "productId": "c764d066-99e7-44a4-973c-e9825cb20d9f",
-                        "price": 23000,
-                        "emiAmount": 0
-                    }
-                ],
-                "emiPlan": {
-                    "schemes": [
-                        {
-                            "schemeId": "schm1",
-                            "tenureUnit": "day",
-                            "tenureDurationNet": 3,
-                            "isNoCost": false,
-                            "interest": 772.5538761095304,
-                            "emiAmount": 13090.85129203651,
-                            "isSelected": false,
-		            "advanceEmi":0.0,
-		            "processingFee":0.0		
-                        },
-			       {
-                            "schemeId": "schm1",
-                            "tenureUnit": "day",
-                            "tenureDurationNet": 3,
-                            "isNoCost": false,
-                            "interest": 7752.5538761095304,
-                            "emiAmount": 14090.85129203651,
-                            "isSelected": false,
-		            "advanceEmi":0.0,
-		            "processingFee":0.0		
-                        },
-			       {
-                            "schemeId": "schm1",
-                            "tenureUnit": "day",
-                            "tenureDurationNet": 3,
-                            "isNoCost": false,
-                            "interest": 8972.5538761095304,
-                            "emiAmount": 133090.85129203651,
-                            "isSelected": false,
-		            "advanceEmi":0.0,
-		            "processingFee":0.0		
-                        },
-			       {
-                            "schemeId": "schm1",
-                            "tenureUnit": "day",
-                            "tenureDurationNet": 3,
-                            "isNoCost": false,
-                            "interest": 1572.5538761095304,
-                            "emiAmount": 13090.85129203651,
-                            "isSelected": false,
-		            "advanceEmi":0.0,
-		            "processingFee":0.0		
-                        }
-                    ]
-                },
-                "downPayment": {
-            "downPayment": 6000,
-            "minimum": 6000,
-            "maximum": 9200
-        },
-                "loanAmount": 0,
-                "neuCoins": 0
-            }
-        ],
-        "downPayment": {
-            "downPayment": 6000,
-            "minimum": 6000,
-            "maximum": 9200
-        }
-		
-		
-		}
-			
-			
-		
-
-
-
-
 	}
 
 }
