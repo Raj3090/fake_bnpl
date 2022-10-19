@@ -3,6 +3,7 @@
 		 "status": "Success",
 		 "errors": [],
 		 "data": {
+			  "redirect": "PDP",
 			"offers": [
     {
       "id": "ID1",
@@ -17,6 +18,8 @@
 		 "status": "Success",
 		 "errors": [],
 		 "data": {
+			     "redirect": "PDP",
+
 		"offers": [
     {
       "id": "ID1",
@@ -36,6 +39,7 @@
 	"no-offer": {
 		"status": "Success",
 		"errors": [],
+		 "redirect": "PDP",
 		"data": {
 			"offers": [
  
